@@ -5,7 +5,7 @@ function fibonacci(num) {
   } else if (num === 1) {
     return 1;
   } else {
-    return fibonacci1(num - 1) + fibonacci1(num - 2);
+    return fibonacci(num - 1) + fibonacci(num - 2);
   }
 }
 
